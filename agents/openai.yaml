@@ -1,0 +1,7 @@
+interface:
+  display_name: "Go 编码规范"
+  short_description: "统一 Go 代码的结构、命名、错误、日志、并发与测试约束"
+  default_prompt: "使用 $go-coding-standards 来审查并修订当前 Go 代码，使其符合代码规范。"
+
+policy:
+  allow_implicit_invocation: true
